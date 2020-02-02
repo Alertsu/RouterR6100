@@ -15,7 +15,7 @@
        将原厂固件R6100-V1.2.0.4.img文件复制到c盘根目录，并改个简单的名字，我改名为r6100.img。
        再打开cmd，输入TFTP -i 192.168.1.1 PUT r6100.img，不要着急点回车确认，接下来将路由进入tftp模式，安装reset不松手，拔掉电源再接上，路由灯闪烁后或者ping通了后立马回车，将TFTP -i 192.168.1.1 PUT r6100.img这条命令执行，过一会就出现传送成功的，松开reset键。
 
-      ![img](https:////upload-images.jianshu.io/upload_images/2042197-607035dd7c60e74e.png?imageMogr2/auto-orient/strip|imageView2/2/w/388/format/webp)
+      ![img](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/2042197-607035dd7c60e74e.png)
 
       
 
@@ -156,7 +156,7 @@
 
          
 
-         ![image-20200202145620044](C:\Users\Administrator\Desktop\image-20200202145620044.png)
+         ![image-20200202145620044](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202145620044.png)
 
          
 
@@ -211,7 +211,7 @@
       service samba restart	#重启samba服务
       ````
 
-      ![image-20200201221432380](C:\Users\Administrator\Desktop\image-20200201221432380.png)
+      ![image-20200201221432380](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200201221432380.png)
 
       
 
@@ -227,7 +227,7 @@
 
       设置:
 
-      ![image-20200202124039549](C:\Users\Administrator\Desktop\image-20200202124039549.png)
+      ![image-20200202124039549](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202124039549.png)
 
       
 
@@ -249,27 +249,27 @@
 
          1. ##### 基础选项
 
-            ![image-20200202153822417](C:\Users\Administrator\Desktop\image-20200202153822417.png)
+            ![image-20200202153822417](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202153822417.png)
 
          2. ##### RPC选项
 
-            ![image-20200202153902048](C:\Users\Administrator\Desktop\image-20200202153902048.png)
+            ![image-20200202153902048](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202153902048.png)
 
          3. ##### Http/Ftp/SFtp选项
 
-            图一:![image-20200202154107562](C:\Users\Administrator\Desktop\image-20200202154107562.png)
+            图一:![image-20200202154107562](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154107562.png)
 
-            图二:![image-20200202154203128](C:\Users\Administrator\Desktop\image-20200202154203128.png)
+            图二:![image-20200202154203128](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154203128.png)
 
          4. ##### BT选项
 
-            图一:![image-20200202154239624](C:\Users\Administrator\Desktop\image-20200202154239624.png)
+            图一:![image-20200202154239624](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154239624.png)
 
-            图二:![image-20200202154304242](C:\Users\Administrator\Desktop\image-20200202154304242.png)
+            图二:![image-20200202154304242](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154304242.png)
 
          5. ##### 高级选项
 
-            ![image-20200202154336002](C:\Users\Administrator\Desktop\image-20200202154336002.png)
+            ![image-20200202154336002](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154336002.png)
 
          
 
@@ -291,7 +291,7 @@
 
          设置-链接设置
 
-         ![image-20200202154857272](C:\Users\Administrator\Desktop\image-20200202154857272.png)
+         ![image-20200202154857272](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154857272.png)
 
          
 
@@ -305,7 +305,7 @@
 
       设置:
 
-      ![image-20200202161235297](C:\Users\Administrator\Desktop\image-20200202161235297.png)
+      ![image-20200202161235297](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202161235297.png)
 
       
 
@@ -319,11 +319,11 @@
 
        1. 基础设置
 
-          ![image-20200202162651038](C:\Users\Administrator\Desktop\image-20200202162651038.png)
+          ![image-20200202162651038](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202162651038.png)
 
        2. 队列选择
 
-          ![image-20200202162727140](C:\Users\Administrator\Desktop\image-20200202162727140.png)
+          ![image-20200202162727140](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202162727140.png)
 
           
 
