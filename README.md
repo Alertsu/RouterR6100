@@ -20,7 +20,7 @@
 
 如下图,说明成功:
 
-![img](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/2042197-607035dd7c60e74e.png)
+![img](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/2042197-607035dd7c60e74e.png)
 
 [官方参考 U-Boot TFTP](https://openwrt.org/docs/guide-user/installation/generic.flashing.tftp)
 
@@ -120,7 +120,7 @@ date
 #### 2. 设置时间
 ##### 方法1.luci界面设置
 设置:系统-系统(如下图)
-   ![image-20200202145620044](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202145620044.png)
+   ![image-20200202145620044](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202145620044.png)
 
 ##### 方法2. 修改配置文件，设置时区,时间
 ````shell
@@ -147,12 +147,12 @@ chown -R amdin:admin /mnt/udisk #设置/mnt/udisk 的owner 是admin
 smbpasswd -a admin	#在smbpasswd文件添加访问人员
 service samba restart	#重启samba服务
 ````
-![image-20200201221432380]（https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200201221432380.png)
+![image-20200201221432380](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200201221432380.png)
 ###  4.Shadowsocks-libev
 ### 5.DNSCrypt-Proxy设置
 ### 6.硬盘休眠
 设置:
-![image-20200202124039549]（https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202124039549.png)
+![image-20200202124039549](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202124039549.png)
 
 ### 7.aria2c设置
 #### 1.需要的包
@@ -162,36 +162,36 @@ opkg install  luci-ssl-openssl ca-bundle luci-i18n-aria2-zh-cn
 #### 2.下载的目录要对运行的用户要有读写权限
 #### 3.在luci界面上设置
 ##### 1.基础选项
-![image-20200202153822417]（https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202153822417.png)
+![image-20200202153822417](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202153822417.png)
 ##### 2.RPC选项
-![image-20200202153902048]https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202153902048.png)
+![image-20200202153902048](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202153902048.png)
 ##### 3.Http/Ftp/SFtp选项
-图一:![image-20200202154107562](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154107562.png)
-图二:![image-20200202154203128](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154203128.png)
+图一:![image-20200202154107562](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202154107562.png)
+图二:![image-20200202154203128](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202154203128.png)
 ##### 4.BT选项
-图一:![image-20200202154239624](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154239624.png)
-图二:![image-20200202154304242](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154304242.png)
+图一:![image-20200202154239624](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202154239624.png)
+图二:![image-20200202154304242](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202154304242.png)
 ##### 5.高级选项
-![image-20200202154336002](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154336002.png)
+![image-20200202154336002](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202154336002.png)
 #### 4.下载的界面(WebUi)
 [地址1](http://webui-aria2.ghostry.cn/)
 
 #### 5.WebUi链接到aria2
 设置:
 设置-链接设置
-![image-20200202154857272](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202154857272.png)
+![image-20200202154857272](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202154857272.png)
 
 ### 8.cjdns设置
 ### 9.miniDLNA
 设置:
-![image-20200202161235297](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202161235297.png)
+![image-20200202161235297](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202161235297.png)
 
 ### 10.简易 AdBlock
 ### 11.SQM Qos
 1. 基础设置
-![image-20200202162651038](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202162651038.png)
+![image-20200202162651038](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202162651038.png)
 2. 队列选择
-![image-20200202162727140](https://github.com/altersou/RouterR6100/blob/master/picture/20200202/image-20200202162727140.png)
+![image-20200202162727140](https://github.com/UniversalSou/RouterR6100/blob/master/picture/20200202/image-20200202162727140.png)
 
 ### 12.修改默认网关
 #### 1.ssh到路由器上去
